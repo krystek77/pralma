@@ -1,0 +1,27 @@
+RewriteEngine on
+
+RewriteRule producent-przemyslowych-urzadzen-pralniczych-oraz-wozkow-i-regalow-do-pralni index.php
+RewriteRule pralma-wyposazenie-przemyslowych-i-komercyjnych-pralni index.php?sec=firma&mid=0
+RewriteRule przemyslowe-pralnicowirowki-pralnice-suszarki-bariera-higieny-wirowki-prasownice index.php?sec=main&mid=1
+RewriteRule pralnicowirowki-przemyslowe index.php?sec=main&mid=2
+RewriteRule przemyslowe-suszarki-pralnicze index.php?sec=main&mid=3
+RewriteRule projekt-wyposazenia-przemyslowej-pralni-kazdego-rodzaju-i-wielkosci index.php?sec=firma&mid=2
+RewriteRule finansowanie-wyposazenia-pralni-przemyslowej index.php?sec=firma&mid=3
+RewriteRule pralki-przemyslowe-z-bariera-higieny index.php?sec=main&mid=4
+RewriteRule przemyslowe-wirowki-pralnicze index.php?sec=main&mid=6
+RewriteRule wozki-regaly-do-pralni-przemyslowych index.php?sec=main&mid=8
+RewriteRule urzadzenia-pralnicze-do-hotelu-szpitali-domow-opieki-pralni-przemyslowych index.php?sec=main&mid=9
+RewriteRule nowoczesne-technologie-w-przemyslowych-urzadzeniach-pralniczych index.php?sec=main&mid=10
+RewriteRule systemy-dozujace-do-pralni-detergenty index.php?sec=main&mid=11
+RewriteRule aktualnosci-i-promocje-na-pralki-przemyslowe index.php?sec=main&mid=12
+RewriteRule kontakt-do-pralma-producenta-przemyslowych-urzadzen-pralniczych index.php?sec=main&mid=13
+RewriteRule przemyslowe-pralki-do-samoobslugi-na-zetony-monety index.php?sec=main&mid=14
+RewriteRule wymagania-dla-pralni-przemyslowej-z-bariera-higieny index.php?sec=main&mid=15
+RewriteRule uzywane-pralki-przemyslowe index.php?sec=main&mid=17
+RewriteRule serwis-przemyslowych-urzadzen-pralniczych-primus-pralma-prama index.php?sec=main&mid=16
+RewriteRule czesci-zamienne-do-urzadzen-pralniczych-primus-pralma-prama-ipso index.php?sec=main&mid=18
+RewriteRule pralma-przykladowe-realizacje-projektow-pralni-przemyslowej index.php?sec=main&mid=19
+RewriteRule profesjonalne-sterowniki-do-przemyslowych-urzadzen-pralniczych index.php?sec=main&mid=20
+RewriteRule pralma-wazne-przy-dostawie-urzadzen-pralniczych index.php?sec=main&mid=21
+RewriteRule pralma-warunki-korzystania-z-serwisu index.php?sec=main&mid=22
+RewriteRule pralma-polityka-prywatnosci index.php?sec=main&mid=23
