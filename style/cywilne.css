@@ -1,0 +1,140 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+header {
+    min-height: 40vh;
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    /* background-color: #383838; */
+    color: #383838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+section {
+    position: relative;
+}
+
+
+
+
+
+img {
+    max-width: 100%;
+}
+
+.copyright {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.link-to-www {
+    text-decoration: none;
+    color: #383838;
+}
+
+h2 {
+    color: #383838;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #383838;
+    font-weight: 500;
+}
+
+.highlight {
+    display: block;
+    font-weight: 500;
+    color: #383838;
+}
+
+.page-title {
+    font-weight: 300;
+    text-transform: lowercase;
+    color: #383838;
+}
+
+.section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    /* background-color: #FBFBFB; */
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 5rem;
+}
+
+.description--reverse {
+    flex-direction: row-reverse
+}
+
+.description-image {
+    flex-shrink: 0;
+    flex-basis: 50%;
+    min-height: 480px;
+
+    background: url(../resources/FDC6.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.description-content {
+    align-self: stretch;
+    padding-left: 2rem;
+    border-left: 1px solid #EFEFEF;
+}
+
+.description-content--without-border {
+    padding-left: 0;
+    border-left: none;
+    padding-right: 2rem;
+}
+
+.features-image {
+    flex-shrink: 0;
+    flex-basis: 30%;
+    min-height: 280px;
+    background: url(../resources/airflow.png);
+    background-position: 50% 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.icons img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

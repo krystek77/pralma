@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: black;
+    font-weight: 300;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 300;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+}
+
+.navigation--marine {}
+
+header {
+    height: 45vh;
+    background: url(../resources/bg_marine.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1170px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding-top: 5rem;
+}
+
+.intro__title {
+    color: white;
+    font-size: 2rem;
+    text-transform: lowercase;
+    font-weight: 700;
+    margin: 0;
+}
+
+.intro__subtitle {
+    margin: 0;
+    color: white;
+}

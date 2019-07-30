@@ -39,7 +39,8 @@ $PageCons = new PageCons($_GET["sec"], $_GET["mid"], $_GET["pid"]);
     <title>P.P.U.P &bdquo;Pralma&ldquo; sp. z o.o. - producent przemysłowych urządzeń pralniczych</title>
     <link rel="stylesheet" href="style/style.css" type="text/css">
     <link rel="stylesheet" href="style/rodo.css" type="text/css">
-    <link rel="stylesheet" href="style/pomp_detergenty.css" type="text/css"/>
+    <link rel="stylesheet" href="style/pomp_detergenty.css" type="text/css" />
+    <link rel="stylesheet" href="style/new.css" type="text/css" />
 
 
     <!--[if IE]><link rel="stylesheet" href="style/iefix.css" type="text/css" /><![endif]-->
@@ -82,6 +83,15 @@ $PageCons = new PageCons($_GET["sec"], $_GET["mid"], $_GET["pid"]);
 
 <body>
     <div class="page-wrapper">
+        <nav class="top-nav">
+            <div class="top-nav-wrapper">
+                <a class="top-nav--link" href="/pages/cywilne.html">Straż pożarna i służby cywilne</a>
+                <a class="top-nav--link" href="/pages/recykling.html">Recykling mediów</a>
+                <a class="top-nav--link" href="/pages/softwash.html">Technologia SoftWash</a>
+                <a class="top-nav--link" href="/pages/pytania.html">Q&A</a>
+                <a class='top-nav--link' href="/pages/marine.html">Marynarka wojenna i armia</a>
+            </div>
+        </nav>
         <header id="header" class="clearfix">
             <!-- start topmenu -->
             <div id="topmenu" class="clearfix">
