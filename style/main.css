@@ -52,6 +52,15 @@ h6 {
 
 .container {
   max-width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .navigation {
@@ -67,6 +76,7 @@ h6 {
     width: 100%;
     top: 0px;
     left: 0px;
+    z-index: 100;
     box-shadow: 0px 2px 2px -2px black;
     margin-bottom: initial;
   }
