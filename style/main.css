@@ -52,6 +52,14 @@ h6 {
   font-family: Oswald, sans-serif;
 }
 
+.temporary-info {
+  margin-top: 38px;
+}
+
+.header.--without-bg {
+  background: none;
+}
+
 .container {
   max-width: 100%;
   padding-left: 1.5rem;
@@ -493,4 +501,4 @@ h6 {
   color: #b4b8ab;
 }
 
-/*# sourceMappingURL=marine.css.map */
+/*# sourceMappingURL=main.css.map */

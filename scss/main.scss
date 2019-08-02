@@ -30,6 +30,17 @@ h6 {
     font-family: Oswald, sans-serif;
 }
 
+//temporary styles 
+.temporary-info {
+    margin-top: 38px;
+}
+
+.header.--without-bg {
+    background: none;
+}
+
+//end temporary styles
+
 .container {
     max-width: 100%;
     padding-left: 1.5rem;
@@ -44,6 +55,7 @@ h6 {
     }
 }
 
+//helpers
 .--disabled {
     cursor: default;
     pointer-events: none;
