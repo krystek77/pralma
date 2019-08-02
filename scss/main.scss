@@ -60,6 +60,10 @@ h6 {
     position: relative;
     width: 100%;
     margin-bottom: 0.1rem;
+    .container {
+        padding-left:0;
+        padding-right:0;
+    }
 
     @media (min-width: $md) {
         position: fixed;
