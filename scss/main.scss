@@ -298,23 +298,35 @@ h6 {
             font-weight: 400;
 
             @media (min-width: $sm) {
-                max-width: 70%;
+                max-width: 80%;
+            }
+            @media (min-width: $md) {
+                max-width: 60%;
             }
         }
 
         &__icons {
             position: absolute;
             right: 1.5rem;
-            top: 0;
+            bottom: 2rem;
+            @media(min-width:$md) {
+                right: 1.5rem;
+                top: 1rem;
+            }
         }
 
         &__icon {
             filter: grayscale(100%);
-            width: 50px;
+            width: 35px;
+
+            @media(min-width:$sm) {
+                width: 50px;
+            }
         }
 
         &--small {
             @include bg(small, 80%);
+           
         }
 
         &--rigid {

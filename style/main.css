@@ -359,17 +359,33 @@ h6 {
 }
 @media (min-width: 576px) {
   .section#machines .machines__description {
-    max-width: 70%;
+    max-width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  .section#machines .machines__description {
+    max-width: 60%;
   }
 }
 .section#machines .machines__icons {
   position: absolute;
   right: 1.5rem;
-  top: 0;
+  bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .section#machines .machines__icons {
+    right: 1.5rem;
+    top: 1rem;
+  }
 }
 .section#machines .machines__icon {
   filter: grayscale(100%);
-  width: 50px;
+  width: 35px;
+}
+@media (min-width: 576px) {
+  .section#machines .machines__icon {
+    width: 50px;
+  }
 }
 .section#machines .machines--small {
   background: url("../resources/small.png");
