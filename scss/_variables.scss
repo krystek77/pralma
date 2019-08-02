@@ -59,3 +59,11 @@ $color in $social-colors {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* BG */
+@mixin bg($image, $size) {
+    background: url('../resources/'+#{$image}+'.png');
+    background-size: $size;
+    background-position: center;
+    background-repeat: no-repeat;
+}
