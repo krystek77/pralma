@@ -185,6 +185,14 @@ h6 {
   list-style-type: none;
   margin-left: 72px;
 }
+@media (min-width: 768px) {
+  .section#introduction .introduction-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4rem;
+    grid-row-gap: 2rem;
+  }
+}
 .section#introduction .introduction-list__title {
   width: max-content;
   font-size: 2rem;

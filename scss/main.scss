@@ -169,6 +169,12 @@ h6 {
     .introduction-list {
         list-style-type: none;
         margin-left: 72px;
+        @media(min-width:$md){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap:4rem;
+            grid-row-gap:2rem;
+        }
         
 
         &__title {
