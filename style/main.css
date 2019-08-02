@@ -37,7 +37,7 @@ body {
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -55,6 +55,8 @@ h6 {
   max-width: 100%;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  position: relative;
+  height: 100%;
 }
 @media (min-width: 992px) {
   .container {
@@ -159,20 +161,25 @@ h6 {
   padding-bottom: 3rem;
 }
 
-.section#introduction {
-  background-image: radial-gradient(farthest-corner at 100% 0%, transparent 30%, #b4b8ab);
+.section__title {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  line-height: 1.1;
 }
+
+.section__description {
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+.--padding-bottom {
+  padding-bottom: 3rem;
+}
+
 .section#introduction .introduction,
 .section#introduction .introduction-list,
 .section#introduction .introduction-icons {
   padding-bottom: 3rem;
-}
-.section#introduction .introduction__title {
-  font-size: 3rem;
-  margin-bottom: 3rem;
-}
-.section#introduction .introduction__description {
-  font-size: 1.6rem;
 }
 .section#introduction .introduction-list {
   list-style-type: none;
@@ -318,10 +325,49 @@ h6 {
   width: 100%;
 }
 
+.section#machines {
+  padding-bottom: 0;
+}
+.section#machines .machines {
+  height: 450px;
+  padding-top: 3rem;
+  background-image: radial-gradient(farthest-corner at 0% 100%, transparent 30%, #f4f9e9);
+}
+.section#machines .machines__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.section#machines .machines__description {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+@media (min-width: 576px) {
+  .section#machines .machines__description {
+    max-width: 70%;
+  }
+}
+.section#machines .machines__icons {
+  position: absolute;
+  right: 1.5rem;
+  top: 0;
+}
+.section#machines .machines__icon {
+  filter: grayscale(100%);
+  width: 50px;
+}
+.section#machines .machines--small {
+  background: url("../resources/small.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .footer {
   width: 100%;
   height: 300px;
-  background-color: #f4f9e9;
+  background-color: #e13700;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -331,6 +377,7 @@ h6 {
 }
 .footer__copyright {
   font-size: 1.2rem;
+  color: #f4f9e9;
 }
 .footer__social-list {
   display: flex;
@@ -360,11 +407,11 @@ h6 {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 500;
-  color: #337ca0;
+  color: #f4f9e9;
   transition: color 0.3s ease-in-out;
 }
 .footer__web-link:hover {
-  color: #284b63;
+  color: #b4b8ab;
 }
 
 /*# sourceMappingURL=main.css.map */
