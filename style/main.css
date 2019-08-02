@@ -151,6 +151,12 @@ h6 {
     right: 0px;
   }
 }
+.header__logo {
+  width: 100px;
+  background-color: #f4f9e9;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+}
 .header__title {
   color: #eef0eb;
   font-size: 5rem;
