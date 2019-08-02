@@ -388,10 +388,33 @@ h6 {
 
     &__web-link {
         text-decoration: none;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-weight: 500;
         color: $color-white;
         transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: $color-grey;
+        }
+    }
+}
+
+.address {
+    text-align: center;
+    color: $color-white;
+    padding-bottom: 1.5rem;
+
+    &__name {
+        font-family: Oswald, sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+    }
+
+    &__email {
+        text-decoration: none;
+        color: $color-white;
+        font-weight: 500;
+        transition: color .3s ease-in-out;
 
         &:hover {
             color: $color-grey;
