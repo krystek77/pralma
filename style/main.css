@@ -67,6 +67,15 @@ h6 {
   }
 }
 
+.--disabled {
+  cursor: default;
+  pointer-events: none;
+}
+
+.--padding-bottom {
+  padding-bottom: 3rem;
+}
+
 .navigation {
   background-color: #284b63;
   text-align: center;
@@ -171,10 +180,6 @@ h6 {
 .section__description {
   font-size: 1.8rem;
   line-height: 1.4;
-}
-
-.--padding-bottom {
-  padding-bottom: 3rem;
 }
 
 .section#introduction .introduction,
