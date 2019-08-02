@@ -371,6 +371,24 @@ h6 {
   background-position: center;
   background-repeat: no-repeat;
 }
+.section#machines .machines--rigid {
+  background: url("../resources/rigid.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section#machines .machines--freestanding {
+  background: url("../resources/free.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section#machines .machines--other {
+  background: url("../resources/other.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .footer {
   width: 100%;
