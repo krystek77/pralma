@@ -1,0 +1,282 @@
+/* Coolors Exported Palette - coolors.co/ff0000-337ca0-3ec300-fffc31-e13700 */
+/* RGB */
+/* RGB */
+/* BREAKPOINTS */
+/* SOCIAL COLORS */
+.--facebook {
+  background-color: #3B5998;
+}
+
+.--twitter {
+  background-color: #00ACED;
+}
+
+.--youtube {
+  background-color: #FF0000;
+}
+
+.--allegro {
+  background-color: #FE5A01;
+}
+
+/* BTN LINK */
+/* ICON BG */
+/* BG */
+/* size headers by golden ratio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  color: #191919;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Oswald, sans-serif;
+}
+
+h1 {
+  font-size: 8.8712041447rem;
+}
+
+h2 {
+  font-size: 5.4828208558rem;
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 3.3886408256rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+h4 {
+  font-size: 2.0943392rem;
+}
+
+h5 {
+  font-size: 1.2944rem;
+}
+
+h6 {
+  font-size: 0.8rem;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #337ca0;
+  font-size: 1.4rem;
+  padding-bottom: 0.5rem;
+}
+a:hover {
+  color: #275e79;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.--disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.navigation {
+  background-color: #284b63;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+.navigation .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width: 768px) {
+  .navigation {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    box-shadow: 0px 2px 2px -2px black;
+    margin-bottom: initial;
+  }
+}
+.navigation__link {
+  color: #eef0eb;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  white-space: nowrap;
+  transition: color 0.5s ease-in-out, background-color 0.2s ease-in-out;
+}
+.navigation__link:hover {
+  color: #eef0eb;
+  background-color: red;
+}
+@media (min-width: 768px) {
+  .navigation__link {
+    display: inline-block;
+  }
+}
+
+.header {
+  height: 500px;
+  background-color: #eef0eb;
+  background: url("../resources/softwash/wedding.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header__title {
+  line-height: 1;
+  font-weight: 300;
+  font-size: 5.4828208558rem;
+  letter-spacing: 0.2rem;
+  color: #eef0eb;
+  text-shadow: 0px 0px 2px #4c4c4c;
+}
+.header__softwash {
+  display: block;
+  font-weight: 700;
+  font-size: 8.8712041447rem;
+  letter-spacing: initial;
+}
+
+.container {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+.container--flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container--grid {
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  grid-template-areas: "main main main main main main main main main aside aside aside";
+}
+.container .aside {
+  grid-area: aside;
+  padding-top: 2rem;
+}
+.container .main {
+  grid-area: main;
+  padding-right: 2rem;
+}
+
+.soft-section__description {
+  font-size: 2rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  line-height: 1.4;
+}
+
+.soft-article {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #eef0eb;
+}
+.soft-article--flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.soft-article--flex .soft-article__image {
+  margin-right: 2rem;
+}
+.soft-article--flex-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+.soft-article--flex-reverse .soft-article__image {
+  margin-left: 2rem;
+}
+.soft-article__description {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.soft-article__features {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.soft-article__list {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+.soft-article__item {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+.soft-article__type {
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.soft-article__icons {
+  max-width: 150px;
+}
+
+.soft-article__image {
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+  border: 2rem solid white;
+  box-shadow: 0px 0px 2px 2px #e5e5e5;
+}
+.soft-article__image--money {
+  background: url("../resources/softwash/lostcost_img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.soft-article__image--flexibility {
+  background: url("../resources/softwash/flexibility_img.png");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.soft-article__content {
+  flex-grow: 1;
+}
+
+/*# sourceMappingURL=softwash.css.map */

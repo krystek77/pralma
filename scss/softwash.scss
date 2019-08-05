@@ -1,0 +1,253 @@
+@import 'base';
+
+h1 {
+    font-size: $h1-size;
+}
+
+h2 {
+    font-size: $h2-size;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: $h3-size;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+h4 {
+    font-size: $h4-size;
+}
+
+h5 {
+    font-size: $h5-size;
+}
+
+h6 {
+    font-size: $h6-size;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: $color-secondary;
+    font-size: 1.4rem;
+    padding-bottom: 0.5rem;
+
+    &:hover {
+        color: darken($color: $color-secondary, $amount: 10);
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+//temporary styles
+.--disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.navigation {
+    background-color: $color-blue;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0.1rem;
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    @media (min-width: $md) {
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 100;
+        box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 1);
+        margin-bottom: initial;
+    }
+
+    &__link {
+        color: $color-light;
+        text-decoration: none;
+        padding: 1rem 1.5rem;
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        display: block;
+        white-space: nowrap;
+        transition: color 0.5s ease-in-out, background-color 0.2s ease-in-out;
+
+        &:hover {
+            color: $color-light;
+            background-color: $color-primary;
+        }
+
+        @media (min-width: $md) {
+            display: inline-block;
+        }
+    }
+}
+
+.header {
+    height: 500px;
+    background-color: $color-light;
+    background: url('../resources/softwash/wedding.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__title {
+        line-height: 1;
+        font-weight: 300;
+        font-size: $h2-size;
+        letter-spacing: 0.2rem;
+        color: $color-light;
+        text-shadow: 0px 0px 2px lighten($color-dark, 20%);
+    }
+
+    &__softwash {
+        display: block;
+        font-weight: 700;
+        font-size: $h1-size;
+        letter-spacing: initial;
+    }
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+
+    &--flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &--grid {
+        padding-top: 5rem;
+        display: grid;
+        grid-template-columns: 9fr 3fr;
+        grid-template-areas: 'main main main main main main main main main aside aside aside';
+    }
+
+    .aside {
+        grid-area: aside;
+        padding-top: 2rem;
+    }
+
+    .main {
+        grid-area: main;
+        padding-right: 2rem;
+    }
+}
+
+.soft-section {
+    &__title {}
+
+    &__description {
+        font-size: 2rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        line-height: 1.4;
+    }
+}
+
+.soft-article {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid $color-light;
+
+    &--flex {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        .soft-article__image {
+            margin-right: 2rem;
+        }
+    }
+
+    &--flex-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+
+        .soft-article__image {
+            margin-left: 2rem;
+        }
+    }
+
+    &__description {
+        font-size: 1.8rem;
+        line-height: 1.4;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    &__features {
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    &__list {
+        list-style-type: disc;
+        margin-left: 1.5rem;
+    }
+
+    &__item {
+        font-size: 1.4rem;
+        line-height: 1.6;
+    }
+
+    &__type {
+        font-size: 5rem;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    &__icons {
+        max-width: 150px;
+    }
+}
+
+.soft-article__image {
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    border: 2rem solid white;
+    box-shadow: 0px 0px 2px 2px lighten($color: $color-dark, $amount: 80);
+    ;
+
+    &--money {
+        background: url('../resources/softwash/lostcost_img.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &--flexibility {
+        background: url('../resources/softwash/flexibility_img.png');
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.soft-article__content {
+    flex-grow: 1;
+}

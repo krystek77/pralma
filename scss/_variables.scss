@@ -67,3 +67,13 @@ $color in $social-colors {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* size headers by golden ratio */
+$golden-ratio:1.618;
+$base:0.8rem;
+$h6-size:$base;
+$h5-size:$base*$golden-ratio;
+$h4-size:$h5-size*$golden-ratio;
+$h3-size:$h4-size*$golden-ratio;
+$h2-size:$h3-size*$golden-ratio;
+$h1-size:$h2-size*$golden-ratio;

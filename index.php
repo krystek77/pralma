@@ -87,11 +87,11 @@ $PageCons = new PageCons($_GET["sec"], $_GET["mid"], $_GET["pid"]);
     <div class="page-wrapper">
         <nav class="navigation">
             <div class="container">
-                <a href="./pralnice-dla-strazy-pozarnej.html" class="navigation__link --disabled">straż pożarna</a>
+                <a href="./pralnice-dla-strazy-pozarnej.html" class="navigation__link">straż pożarna</a>
                 <a href="./pralnice-dla-marynarki-wojennej.html" class="navigation__link">marynarka wojenna i wojsko</a>
-                <a href="./softwash.html" class="navigation__link --disabled">softwash</a>
-                <a href="./recykling-mediow-w-pralni.html" class="navigation__link --disabled">recykling mediów</a>
-                <a href="./pytania.html" class="navigation__link  --disabled">Q&A</a>
+                <a href="./softwash.html" class="navigation__link">softwash</a>
+                <a href="./recykling-mediow-w-pralni.html" class="navigation__link">recykling mediów</a>
+                <a href="./pytania.html" class="navigation__link">Q&A</a>
             </div>
         </nav>
         <header id="header" class="clearfix">
