@@ -109,6 +109,30 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
 
+    &__logos {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    &__logo {
+        max-width: 150px;
+
+        &--pralma {
+            display: block;
+            background-color: $color-light;
+            max-width: 100px;
+            padding: 0.5rem;
+            border-radius: 0.4rem;
+            float: left;
+        }
+
+        &--primus {
+            display: block;
+            float: left;
+            margin-left: 2rem;
+        }
+    }
+
     &__title {
         line-height: 1;
         font-weight: 300;
@@ -172,7 +196,7 @@ img {
     }
 
     &__video {
-        padding: 0 2rem;
+        padding: 0 2rem
     }
 
     .solution {
