@@ -251,6 +251,12 @@ img {
   list-style-type: disc;
   margin-left: 1.5rem;
 }
+.soft-article__list--bg-radax {
+  background: url("../resources/softwash/drum_radax_flow.png");
+  background-position: 100% 0%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
 .soft-article__item {
   font-size: 1.4rem;
   line-height: 1.6;

@@ -218,6 +218,13 @@ img {
     &__list {
         list-style-type: disc;
         margin-left: 1.5rem;
+
+        &--bg-radax {
+            background: url('../resources/softwash/drum_radax_flow.png');
+            background-position: 100% 0%;
+            background-size: 150px;
+            background-repeat: no-repeat;
+        }
     }
 
     &__item {
