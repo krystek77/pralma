@@ -447,4 +447,20 @@ img {
   color: #b4b8ab;
 }
 
+.scrollTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  background-color: red;
+  border: 1px solid #990000;
+  color: #eef0eb;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+.scrollTop:hover {
+  background-color: #990000;
+}
+
 /*# sourceMappingURL=softwash.css.map */
