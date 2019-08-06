@@ -298,6 +298,27 @@ img {
   padding: 1rem;
   border-radius: 0.4rem;
 }
+@media (min-width: 768px) {
+  .soft-article__images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .soft-article__finishers {
+    align-self: end;
+  }
+}
+.soft-article__finishers .caption {
+  background-color: #9abed6;
+  padding: 1rem 1.5rem;
+  color: #191919;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+}
 
 .soft-article__image {
   width: 300px;
