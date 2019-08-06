@@ -372,6 +372,30 @@ img {
   background-repeat: no-repeat;
   background-position: center;
 }
+.soft-article__image--fresh {
+  background: url("../resources/softwash/fresh_textile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.soft-article__image--business {
+  background: url("../resources/softwash/bisness.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.soft-article__image--friendly {
+  background: url("../resources/softwash/ecology.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.soft-article__image--delicate {
+  background: url("../resources/softwash/firefighter.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .soft-article__content {
   flex-grow: 1;
