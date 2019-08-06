@@ -260,6 +260,9 @@ img {
   font-weight: 900;
   text-transform: uppercase;
 }
+.soft-article__type--small {
+  font-size: 3rem;
+}
 .soft-article__solution {
   padding: 1rem;
   border: 1px solid #f2f2f0;

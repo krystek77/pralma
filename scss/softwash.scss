@@ -229,6 +229,10 @@ img {
         font-size: 5rem;
         font-weight: 900;
         text-transform: uppercase;
+
+        &--small {
+            font-size: 3rem;
+        }
     }
 
     &__solution {
