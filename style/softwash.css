@@ -53,6 +53,10 @@ h6 {
   font-family: Oswald, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   font-size: 8.8712041447rem;
 }
@@ -218,6 +222,7 @@ img {
 .container .main {
   grid-area: main;
   padding-right: 2rem;
+  max-width: 100%;
 }
 
 .soft-section__description {
