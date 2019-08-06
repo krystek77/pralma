@@ -247,6 +247,9 @@ img {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+.soft-article__finishers {
+  max-width: 300px;
+}
 .soft-article__controller {
   max-width: 60%;
   margin-left: auto;
