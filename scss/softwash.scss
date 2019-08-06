@@ -157,13 +157,23 @@ img {
 }
 
 .soft-section {
-    &__title {}
 
     &__description {
         font-size: 2rem;
         padding-top: 6rem;
         padding-bottom: 6rem;
         line-height: 1.4;
+    }
+
+    .solution {
+        @media(min-width: $md) {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 2rem;
+            grid-row-gap: 4rem;
+
+        }
     }
 }
 
@@ -201,7 +211,8 @@ img {
 
     &__features {
         font-weight: 300;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
 
     &__list {
@@ -221,8 +232,29 @@ img {
     }
 
     &__solution {
-        max-width: 150px;
+        padding: 1rem;
+        border: 1px solid lighten($color-grey, 25%);
+        border-radius: 0.4rem;
+        position: relative;
+
     }
+
+    &__name-solution {
+        line-height: 2;
+        margin-bottom: 1.5rem;
+    }
+
+    &__solution-image {
+        max-width: 100px;
+        position: absolute;
+        top: -25px;
+        right: 1.5rem;
+        background-color: lighten($color-blue, 70%);
+        padding: 1rem;
+        border-radius: 0.4rem;
+
+    }
+
 }
 
 .soft-article__image {
