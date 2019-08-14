@@ -1,0 +1,85 @@
+/* Coolors Exported Palette - coolors.co/ff0000-337ca0-3ec300-fffc31-e13700 */
+/* RGB */
+/* RGB */
+/* BREAKPOINTS */
+/* SOCIAL COLORS */
+.--facebook {
+  background-color: #3B5998;
+}
+
+.--twitter {
+  background-color: #00ACED;
+}
+
+.--youtube {
+  background-color: #FF0000;
+}
+
+.--allegro {
+  background-color: #FE5A01;
+}
+
+/* BTN LINK */
+/* ICON BG */
+/* BG */
+/* size headers by golden ratio */
+/* Coolors Exported Palette - coolors.co/ff0000-337ca0-3ec300-fffc31-e13700 */
+/* RGB */
+/* RGB */
+/* BREAKPOINTS */
+/* SOCIAL COLORS */
+.--facebook {
+  background-color: #3B5998;
+}
+
+.--twitter {
+  background-color: #00ACED;
+}
+
+.--youtube {
+  background-color: #FF0000;
+}
+
+.--allegro {
+  background-color: #FE5A01;
+}
+
+/* BTN LINK */
+/* ICON BG */
+/* BG */
+/* size headers by golden ratio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  color: #191919;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Oswald, sans-serif;
+}
+
+body {
+  background-color: red;
+}
+
+/*# sourceMappingURL=firebrigade.css.map */
