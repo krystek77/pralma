@@ -13,6 +13,7 @@
     display: block;
     font-weight: 500;
     font-size: 4rem;
+    color: $color-primary;
 }
 
 .page-wrapper {
@@ -97,9 +98,11 @@ p {
     &__title {
         font-size: 3rem;
         margin-bottom: 1rem;
+        color: $color-secondary;
 
         &-technology {
             font-size: 2rem;
+            color: $color-secondary;
         }
     }
 

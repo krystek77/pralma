@@ -82,6 +82,7 @@ h6 {
   display: block;
   font-weight: 500;
   font-size: 4rem;
+  color: red;
 }
 
 @media (min-width: 992px) {
@@ -159,9 +160,11 @@ p {
 .article__title {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: #337ca0;
 }
 .article__title-technology {
   font-size: 2rem;
+  color: #337ca0;
 }
 .article__subtitle {
   font-size: 2rem;
