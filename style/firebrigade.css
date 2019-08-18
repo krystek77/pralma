@@ -91,6 +91,21 @@ h6 {
     margin-right: auto;
   }
 }
+.page-wrapper .nav {
+  text-align: right;
+}
+.page-wrapper .nav__link {
+  font-size: 1.5rem;
+  font-family: Montserrat, sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #337ca0;
+  transition: all 0.3s ease-in-out;
+}
+.page-wrapper .nav__link:hover {
+  color: #284b63;
+}
 .page-wrapper .header {
   padding-top: 10rem;
   padding-bottom: 10rem;
