@@ -78,12 +78,30 @@ h6 {
   font-family: Oswald, sans-serif;
 }
 
+.breaking-space {
+  display: block;
+  font-weight: 500;
+  font-size: 4rem;
+}
+
 @media (min-width: 992px) {
   .page-wrapper {
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
   }
+}
+.page-wrapper .header {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.page-wrapper .header__title {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 3.5rem;
+  font-weight: 300;
 }
 
 img {
