@@ -139,6 +139,8 @@ h6 {
   padding-top: 10rem;
   padding-bottom: 10rem;
   background: url("../resources//firefighters/firefighters_bg.png");
+  background-color: #686d5d;
+  background-blend-mode: color-dodge;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
