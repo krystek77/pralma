@@ -16,7 +16,7 @@
     color: $color-primary;
     text-shadow: initial;
     text-transform: uppercase;
-    margin-top:1rem;
+    margin-top: 1rem;
 }
 
 .--disabled {
@@ -133,9 +133,31 @@ p {
         'controll controll controll controll controll controll'
         'footer footer footer footer footer footer';
 
+    &--no-grid {
+        display: block;
+
+        .article__list {
+            text-align: left
+        }
+
+        .article__item {
+            font-style: italic;
+            font-size: 2rem;
+            line-height: 2;
+        }
+    }
+
     &__header {
         grid-area: header;
         @include paddings;
+
+        &--center {
+            text-align: center;
+
+            .article__title {
+                color: $color-dark;
+            }
+        }
     }
 
     &__title {

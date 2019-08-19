@@ -195,6 +195,20 @@ p {
   grid-column-gap: 2rem;
   grid-template-areas: "header header header header header header" "image image content content content content" "shower shower shower shower shower shower" "controll controll controll controll controll controll" "footer footer footer footer footer footer";
 }
+.article--no-grid,
+.article__technology-description--no-grid {
+  display: block;
+}
+.article--no-grid .article__list,
+.article__technology-description--no-grid .article__list {
+  text-align: left;
+}
+.article--no-grid .article__item,
+.article__technology-description--no-grid .article__item {
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 2;
+}
 .article__header,
 .article__technology-description__header {
   grid-area: header;
@@ -202,6 +216,14 @@ p {
   padding-bottom: 2rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+.article__header--center,
+.article__technology-description__header--center {
+  text-align: center;
+}
+.article__header--center .article__title,
+.article__technology-description__header--center .article__title {
+  color: #191919;
 }
 .article__title,
 .article__technology-description__title {
