@@ -85,6 +85,11 @@ h6 {
   color: red;
 }
 
+.--disabled {
+  cursor: default;
+  pointer-events: none;
+}
+
 .email,
 .phone {
   font-size: 1.3rem;
