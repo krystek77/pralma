@@ -152,7 +152,7 @@ p {
   line-height: 1;
 }
 
-.article {
+.article, .article__technology-description {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[6];
@@ -161,7 +161,7 @@ p {
       grid-template-areas: "header header header header header header" "image image content content content content" "shower shower shower shower shower shower" "controll controll controll controll controll controll" "footer footer footer footer footer footer";
 }
 
-.article__header {
+.article__header, .article__technology-description__header {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 6;
@@ -172,23 +172,23 @@ p {
   padding-right: 1.5rem;
 }
 
-.article__title {
+.article__title, .article__technology-description__title {
   font-size: 3rem;
   margin-bottom: 1rem;
   color: #337ca0;
 }
 
-.article__title-technology {
+.article__title--technology, .article__technology-description__title--technology {
   font-size: 2rem;
   color: #337ca0;
 }
 
-.article__subtitle {
+.article__subtitle, .article__technology-description__subtitle {
   font-size: 2rem;
   font-weight: 400;
 }
 
-.article__image {
+.article__image, .article__technology-description__image {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -199,7 +199,7 @@ p {
   padding-right: 1.5rem;
 }
 
-.article__content {
+.article__content, .article__technology-description__content {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   -ms-grid-column-span: 4;
@@ -210,7 +210,7 @@ p {
   padding-right: 1.5rem;
 }
 
-.article__technology-description--shower {
+.article__technology-description--shower, .article__technology-description__technology-description--shower {
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 1.5rem;
@@ -221,7 +221,7 @@ p {
   grid-area: shower;
 }
 
-.article__technology-description--controll {
+.article__technology-description--controll, .article__technology-description__technology-description--controll {
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 1.5rem;
@@ -232,7 +232,7 @@ p {
   grid-area: controll;
 }
 
-.article__list {
+.article__list, .article__technology-description__list {
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 1.5rem;
@@ -241,7 +241,7 @@ p {
   padding-left: 3.5rem;
 }
 
-.article__list--technologies {
+.article__list--technologies, .article__technology-description__list--technologies {
   list-style-type: none;
   display: -ms-grid;
   display: grid;
@@ -252,12 +252,12 @@ p {
   padding-left: 0;
 }
 
-.article__item {
+.article__item, .article__technology-description__item {
   font-size: 1.6rem;
   line-height: 1.4;
 }
 
-.article__item--technology {
+.article__item--technology, .article__technology-description__item--technology {
   white-space: nowrap;
   padding: 0.5rem;
   text-align: center;
@@ -265,40 +265,40 @@ p {
   font-size: 1.4rem;
 }
 
-.article__item--red {
+.article__item--red, .article__technology-description__item--red {
   background-color: #EB5757;
 }
 
-.article__item--orange {
+.article__item--orange, .article__technology-description__item--orange {
   background-color: #F2994A;
 }
 
-.article__item--green {
+.article__item--green, .article__technology-description__item--green {
   background-color: #219653;
 }
 
-.article__item--blue {
+.article__item--blue, .article__technology-description__item--blue {
   background-color: #2F80ED;
 }
 
-.article__item--blue-light {
+.article__item--blue-light, .article__technology-description__item--blue-light {
   background-color: #2D9CDB;
 }
 
-.article__item--green-light {
+.article__item--green-light, .article__technology-description__item--green-light {
   background-color: #6FCF97;
 }
 
-.article__item--violet {
+.article__item--violet, .article__technology-description__item--violet {
   background-color: #BB6BD9;
 }
 
-.article__description {
+.article__description, .article__technology-description__description {
   font-size: 1.8rem;
   line-height: 1.3;
 }
 
-.article__footer {
+.article__footer, .article__technology-description__footer {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
   -ms-grid-column-span: 6;
