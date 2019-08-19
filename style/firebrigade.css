@@ -147,6 +147,8 @@ h6 {
   padding-top: 10rem;
   padding-bottom: 10rem;
   background: url("../resources//firefighters/firefighters_bg.png");
+  background-color: #a8ac9d;
+  background-blend-mode: color-dodge;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -160,7 +162,6 @@ h6 {
   font-weight: 400;
   text-align: right;
   color: #191919;
-  text-shadow: 0px 0px 2px white;
 }
 .page-wrapper .header__subtitle {
   padding-top: 2rem;
