@@ -202,12 +202,13 @@ p {
 .article--no-grid .article__list,
 .article__technology-description--no-grid .article__list {
   text-align: left;
+  padding-bottom: 5rem;
+  border-bottom: 1px solid #eef0eb;
 }
 .article--no-grid .article__item,
 .article__technology-description--no-grid .article__item {
-  font-style: italic;
-  font-size: 2rem;
-  line-height: 2;
+  font-size: 1.4rem;
+  line-height: 1.5;
 }
 .article__header,
 .article__technology-description__header {

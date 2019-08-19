@@ -137,13 +137,14 @@ p {
         display: block;
 
         .article__list {
-            text-align: left
+            text-align: left;
+            padding-bottom: 5rem;
+            border-bottom: 1px solid $color-light;
         }
 
         .article__item {
-            font-style: italic;
-            font-size: 2rem;
-            line-height: 2;
+            font-size: 1.4rem;
+            line-height: 1.5;
         }
     }
 
