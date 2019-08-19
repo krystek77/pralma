@@ -307,6 +307,16 @@ p {
   grid-row-gap: 1rem;
   padding-left: 0;
 }
+.article__list-inner,
+.article__technology-description__list-inner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+.article__list-inner .article__item,
+.article__technology-description__list-inner .article__item {
+  font-size: 1.2rem;
+}
 .article__item,
 .article__technology-description__item {
   font-size: 1.6rem;
