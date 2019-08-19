@@ -72,12 +72,17 @@
     .header {
         padding-top: 10rem;
         padding-bottom: 10rem;
+        background: url('../resources//firefighters/firefighters_bg.png');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
 
         &__title {
             @include paddings;
             font-size: 3.5rem;
             font-weight: 300;
             text-align: right;
+            color:$color-light;
 
         }
 
@@ -85,6 +90,7 @@
             @include paddings;
             font-size: 1.6rem;
             text-align: right;
+            color:$color-light;
         }
     }
 }
