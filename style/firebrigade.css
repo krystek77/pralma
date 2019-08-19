@@ -151,9 +151,10 @@ h6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   font-size: 3.5rem;
-  font-weight: 300;
+  font-weight: 400;
   text-align: right;
-  color: #eef0eb;
+  color: #191919;
+  text-shadow: 0px 0px 10px white;
 }
 .page-wrapper .header__subtitle {
   padding-top: 2rem;
@@ -162,7 +163,8 @@ h6 {
   padding-right: 1.5rem;
   font-size: 1.6rem;
   text-align: right;
-  color: #eef0eb;
+  color: #191919;
+  text-shadow: 0px 0px 10px white;
 }
 
 img {
