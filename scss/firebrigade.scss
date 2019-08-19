@@ -266,6 +266,13 @@ p {
         grid-area: footer;
         @include paddings;
     }
+
+    &__info {
+        @include paddings;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 500;
+    }
 }
 
 .footer {
@@ -350,5 +357,22 @@ p {
 
     &__img {
         padding: 1rem;
+    }
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    background-color: $color-primary;
+    border: 1px solid darken($color-primary, 20%);
+    color: $color-light;
+    transition: all .3s ease-in-out;
+    outline: none;
+
+    &:hover {
+        background-color: darken($color-primary, 20%);
     }
 }

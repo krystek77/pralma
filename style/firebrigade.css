@@ -348,6 +348,16 @@ p {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+.article__info,
+.article__technology-description__info {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
 
 .footer {
   width: 100%;
@@ -429,6 +439,22 @@ p {
 }
 .gallery__img {
   padding: 1rem;
+}
+
+.scrollTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  background-color: red;
+  border: 1px solid #990000;
+  color: #eef0eb;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+.scrollTop:hover {
+  background-color: #990000;
 }
 
 /*# sourceMappingURL=firebrigade.css.map */
