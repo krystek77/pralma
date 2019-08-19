@@ -419,4 +419,16 @@ p {
   color: #191919;
 }
 
+.gallery {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.gallery__img {
+  padding: 1rem;
+}
+
 /*# sourceMappingURL=firebrigade.css.map */

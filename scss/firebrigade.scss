@@ -342,3 +342,13 @@ p {
         }
     }
 }
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    @include paddings();
+
+    &__img {
+        padding: 1rem;
+    }
+}
