@@ -286,11 +286,11 @@ p {
 }
 .article__item--red,
 .article__technology-description__item--red {
-  background-color: #EB5757;
+  background-color: #eb5757;
 }
 .article__item--orange,
 .article__technology-description__item--orange {
-  background-color: #F2994A;
+  background-color: #f2994a;
 }
 .article__item--green,
 .article__technology-description__item--green {
@@ -298,19 +298,19 @@ p {
 }
 .article__item--blue,
 .article__technology-description__item--blue {
-  background-color: #2F80ED;
+  background-color: #2f80ed;
 }
 .article__item--blue-light,
 .article__technology-description__item--blue-light {
-  background-color: #2D9CDB;
+  background-color: #2d9cdb;
 }
 .article__item--green-light,
 .article__technology-description__item--green-light {
-  background-color: #6FCF97;
+  background-color: #6fcf97;
 }
 .article__item--violet,
 .article__technology-description__item--violet {
-  background-color: #BB6BD9;
+  background-color: #bb6bd9;
 }
 .article__description,
 .article__technology-description__description {
@@ -324,6 +324,76 @@ p {
   padding-bottom: 2rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.footer__copyright {
+  font-size: 1.2rem;
+  color: #191919;
+}
+.footer__social-list {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  padding: 1rem 1.5rem;
+}
+.footer__social-item {
+  margin: 0 0.2rem;
+}
+.footer__social-link {
+  display: block;
+  color: #eef0eb;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.4rem 1rem;
+  border: 1px solid #191919;
+  border-radius: 0.2rem;
+  transition: color 0.5s ease-in-out, background-color 0.2s ease-in-out;
+}
+.footer__social-link:hover {
+  color: #191919;
+  background-color: #f4f9e9;
+}
+.footer__web-link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #191919;
+  transition: color 0.3s ease-in-out;
+}
+.footer__web-link:hover {
+  color: #b4b8ab;
+}
+
+.address {
+  text-align: center;
+  color: #191919;
+  padding-bottom: 1.5rem;
+}
+.address__name {
+  font-family: Oswald, sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.address__email {
+  text-decoration: none;
+  color: #191919;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+.address__email:hover {
+  color: #191919;
 }
 
 /*# sourceMappingURL=firebrigade.css.map */

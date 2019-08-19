@@ -19,7 +19,6 @@
 .--disabled {
     cursor: default;
     pointer-events: none;
-
 }
 
 .email,
@@ -31,7 +30,7 @@
     display: inline-block;
     padding: 0.5rem 1rem;
     color: $color-secondary;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     border: 1px solid $color-grey;
     border-radius: 0.4rem;
 
@@ -51,7 +50,7 @@
 }
 
 .page-wrapper {
-    @media(min-width:$lg) {
+    @media (min-width: $lg) {
         max-width: 1170px;
         margin-left: auto;
         margin-right: auto;
@@ -67,7 +66,7 @@
             display: inline-block;
             padding: 0.5rem 1rem;
             color: $color-secondary;
-            transition: all .3s ease-in-out;
+            transition: all 0.3s ease-in-out;
 
             &:hover {
                 color: $color-blue;
@@ -79,10 +78,10 @@
         padding-top: 10rem;
         padding-bottom: 10rem;
         background: url('../resources//firefighters/firefighters_bg.png');
-        background-color:darken($color-grey,30%);
+        background-color: darken($color-grey, 30%);
         background-blend-mode: color-dodge;
-        background-size:cover;
-        background-position:center;
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
 
         &__title {
@@ -90,17 +89,16 @@
             font-size: 3.5rem;
             font-weight: 400;
             text-align: right;
-            color:$color-dark;
-            text-shadow: 0px 0px 10px rgba(255,255,255,1);
-
+            color: $color-dark;
+            text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
         }
 
         &__subtitle {
             @include paddings;
             font-size: 1.6rem;
             text-align: right;
-            color:$color-dark;
-            text-shadow: 0px 0px 10px rgba(255,255,255,1);
+            color: $color-dark;
+            text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
         }
     }
 }
@@ -120,24 +118,21 @@ p {
     line-height: 1;
 }
 
-
 .article,
 .article__technology-description {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-column-gap: 2rem;
     grid-template-areas:
-
-        "header header header header header header"
-        "image image content content content content"
-        "shower shower shower shower shower shower"
-        "controll controll controll controll controll controll"
-        "footer footer footer footer footer footer";
+        'header header header header header header'
+        'image image content content content content'
+        'shower shower shower shower shower shower'
+        'controll controll controll controll controll controll'
+        'footer footer footer footer footer footer';
 
     &__header {
         grid-area: header;
         @include paddings;
-
     }
 
     &__title {
@@ -177,7 +172,7 @@ p {
         &--controll {
             @include paddings;
             grid-area: controll;
-            background-color: lighten($color:$color-grey, $amount:25%);
+            background-color: lighten($color: $color-grey, $amount: 25%);
         }
     }
 
@@ -209,11 +204,11 @@ p {
         }
 
         &--red {
-            background-color: #EB5757;
+            background-color: #eb5757;
         }
 
         &--orange {
-            background-color: #F2994A;
+            background-color: #f2994a;
         }
 
         &--green {
@@ -221,19 +216,19 @@ p {
         }
 
         &--blue {
-            background-color: #2F80ED;
+            background-color: #2f80ed;
         }
 
         &--blue-light {
-            background-color: #2D9CDB;
+            background-color: #2d9cdb;
         }
 
         &--green-light {
-            background-color: #6FCF97;
+            background-color: #6fcf97;
         }
 
         &--violet {
-            background-color: #BB6BD9;
+            background-color: #bb6bd9;
         }
     }
 
@@ -245,5 +240,80 @@ p {
     &__footer {
         grid-area: footer;
         @include paddings;
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    &__copyright {
+        font-size: 1.2rem;
+        color: $color-dark;
+    }
+
+    &__social-list {
+        display: flex;
+        flex-wrap: nowrap;
+        list-style-type: none;
+        padding: 1rem 1.5rem;
+    }
+
+    &__social-item {
+        margin: 0 0.2rem;
+    }
+
+    &__social-link {
+        @include btn-link();
+        border: 1px solid $color-dark;
+        border-radius: 0.2rem;
+        transition: color 0.5s ease-in-out, background-color 0.2s ease-in-out;
+
+        &:hover {
+            color: $color-dark;
+            background-color: $color-white;
+        }
+    }
+
+    &__web-link {
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: $color-dark;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: $color-grey;
+        }
+    }
+}
+
+.address {
+    text-align: center;
+    color: $color-dark;
+    padding-bottom: 1.5rem;
+
+    &__name {
+        font-family: Oswald, sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+    &__email {
+        text-decoration: none;
+        color: $color-dark;
+        font-weight: 500;
+        transition: color .3s ease-in-out;
+
+        &:hover {
+            color: $color-dark;
+        }
     }
 }
