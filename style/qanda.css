@@ -80,7 +80,7 @@ h6 {
 /* size headers by golden ratio */
 html,
 body {
-  height: 100%;
+  min-height: 100%;
 }
 
 .page {
@@ -223,6 +223,7 @@ body {
   padding-right: 1.5rem;
 }
 .content__aside {
+  flex-grow: 1;
   display: none;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
