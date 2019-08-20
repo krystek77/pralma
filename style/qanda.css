@@ -248,12 +248,6 @@ body {
 .aside {
   border-left: 1px solid #eef0eb;
 }
-.aside__list {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
 .aside__link {
   text-decoration: none;
   color: #284b63;
