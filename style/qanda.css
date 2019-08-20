@@ -210,23 +210,29 @@ body {
   background: url(../resources/questions/img_header.png);
   background-repeat: no-repeat;
   background-position: 100% 0%;
-  background-size: contain;
 }
 .header__logo {
   position: absolute;
   right: 1.5rem;
-  top: 2.5rem;
+  bottom: 1rem;
 }
 @media (min-width: 992px) {
   .header__logo {
     right: 0rem;
+    bottom: 2.5rem;
   }
 }
 .header__title {
   font-size: 7rem;
 }
 .header__subtitle {
-  font-size: 2rem;
+  font-size: 1.6rem;
+  color: #eef0eb;
+}
+@media (min-width: 768px) {
+  .header__subtitle {
+    color: #191919;
+  }
 }
 
 .logo {

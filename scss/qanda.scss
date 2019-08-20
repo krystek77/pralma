@@ -143,15 +143,16 @@ body {
     background: url(../resources/questions/img_header.png);
     background-repeat: no-repeat;
     background-position: 100% 0%;
-    background-size: contain;
 
     &__logo {
         position: absolute;
         right: 1.5rem;
-        top: 2.5rem;
+        bottom: 1rem;
+
 
         @media(min-width:$lg) {
             right: 0rem;
+            bottom: 2.5rem;
         }
 
     }
@@ -161,7 +162,13 @@ body {
     }
 
     &__subtitle {
-        font-size: 2rem;
+        font-size: 1.6rem;
+        color: $color-light;
+
+        @media(min-width:$md) {
+            color: $color-dark;
+        }
+
     }
 }
 
