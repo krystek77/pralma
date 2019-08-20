@@ -140,6 +140,10 @@ body {
     flex-direction: column;
     justify-content: center;
     position: relative;
+    background: url(../resources/questions/img_header.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-size: contain;
 
     &__logo {
         position: absolute;
