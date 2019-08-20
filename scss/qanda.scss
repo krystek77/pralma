@@ -6,6 +6,13 @@ body {
     height: 100%;
 }
 
+@mixin paddings {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
 .page {
     width: 100%;
     height: 100%;
@@ -22,27 +29,56 @@ body {
 .header {
     width: 100%;
     background-color: grey;
+    min-height: 300px;
+    @include paddings;
+}
+
+.navigation {
+    width: 100%;
+    background-color: black;
+    color: white;
+    @include paddings;
 }
 
 .content {
     width: 100%;
     flex-grow: 1;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
 
     &__main {
-        flex-basis: 80%;
+        flex-grow: 1;
         background-color: red;
+        @include paddings;
     }
 
     &__aside {
-        flex-basis: 20%;
         background-color: yellow;
+        display: none;
+        @include paddings;
     }
+
+    @media(min-width:$lg) {
+        flex-direction: row;
+
+        &__main {
+            flex-basis: 70%;
+            background-color: red;
+        }
+
+        &__aside {
+            flex-basis: 30%;
+            background-color: yellow;
+            display: block;
+        }
+    }
+
+
 }
 
 .footer {
     width: 100%;
     background-color: green;
+    @include paddings;
 }
