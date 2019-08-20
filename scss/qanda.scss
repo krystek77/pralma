@@ -356,9 +356,11 @@ body {
     }
 }
 
-.social-list__link--disabled {
+.social-list__link--disabled,
+.navigation__link--disabled {
     pointer-events: none;
 }
+
 
 .address {
     text-align: center;
@@ -400,6 +402,7 @@ body {
         }
     }
 }
+
 .scrollTop {
     position: fixed;
     bottom: 2rem;

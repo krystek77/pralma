@@ -412,7 +412,8 @@ body {
   max-width: 32px;
 }
 
-.social-list__link--disabled {
+.social-list__link--disabled,
+.navigation__link--disabled {
   pointer-events: none;
 }
 
