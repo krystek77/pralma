@@ -261,4 +261,25 @@ body {
     width: 100%;
     // background-color: green;
     @include paddings;
+    display: flex;
+    flex-direction: column;
+
+    @media(min-width:$lg) {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        &__navigation {
+            flex-basis: 40%;
+        }
+
+        &__information {
+            flex-basis: 60%;
+        }
+
+        &__copyright {
+            flex-basis: 100%;
+        }
+    }
+
+
 }

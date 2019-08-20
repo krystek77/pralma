@@ -316,6 +316,23 @@ body {
   padding-bottom: 2.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 992px) {
+  .footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footer__navigation {
+    flex-basis: 40%;
+  }
+  .footer__information {
+    flex-basis: 60%;
+  }
+  .footer__copyright {
+    flex-basis: 100%;
+  }
 }
 
 /*# sourceMappingURL=qanda.css.map */
