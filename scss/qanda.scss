@@ -138,6 +138,8 @@ body {
     outline: none;
     color: lighten($color-secondary, 60%);
     border-radius: 0.2rem;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
 }
 
 .content {
@@ -241,6 +243,13 @@ body {
         display: block;
         margin-left: auto;
         margin-right: 2.5rem;
+
+        &:hover {
+            color: $color-secondary;
+            border: 1px solid $color-secondary;
+            background-color: lighten($color-secondary, 60%);
+
+        }
     }
 }
 

@@ -206,6 +206,8 @@ body {
   outline: none;
   color: white;
   border-radius: 0.2rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .content {
@@ -298,6 +300,11 @@ body {
   display: block;
   margin-left: auto;
   margin-right: 2.5rem;
+}
+.article__button:hover {
+  color: #337ca0;
+  border: 1px solid #337ca0;
+  background-color: white;
 }
 
 .footer {
