@@ -208,14 +208,12 @@ body {
 }
 .content__main {
   flex-grow: 1;
-  background-color: red;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 .content__aside {
-  background-color: yellow;
   display: none;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -228,18 +226,15 @@ body {
   }
   .content__main {
     flex-basis: 70%;
-    background-color: red;
   }
   .content__aside {
     flex-basis: 30%;
-    background-color: yellow;
     display: block;
   }
 }
 
 .footer {
   width: 100%;
-  background-color: green;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   padding-left: 1.5rem;
