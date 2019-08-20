@@ -143,8 +143,12 @@ body {
 
     &__logo {
         position: absolute;
-        left: 1.5rem;
+        right: 1.5rem;
         top: 2.5rem;
+
+        @media(min-width:$lg) {
+            right: 0rem;
+        }
 
     }
 

@@ -210,8 +210,13 @@ body {
 }
 .header__logo {
   position: absolute;
-  left: 1.5rem;
+  right: 1.5rem;
   top: 2.5rem;
+}
+@media (min-width: 992px) {
+  .header__logo {
+    right: 0rem;
+  }
 }
 .header__title {
   font-size: 7rem;
