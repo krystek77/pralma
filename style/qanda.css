@@ -264,13 +264,26 @@ body {
 }
 .article__title {
   font-size: 2rem;
+  line-height: 1.1;
+}
+@media (min-width: 576px) {
+  .article__title {
+    line-height: initial;
+  }
 }
 .article__publication-date, .article__author {
   font-size: 1.4rem;
-  display: inline-block;
+  display: block;
 }
-.article__author {
-  margin-left: 1rem;
+@media (min-width: 576px) {
+  .article__publication-date, .article__author {
+    display: inline-block;
+  }
+}
+@media (min-width: 576px) {
+  .article__author {
+    margin-left: 1rem;
+  }
 }
 .article__text {
   font-size: 1.8rem;
