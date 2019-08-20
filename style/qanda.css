@@ -342,5 +342,67 @@ body {
     padding-right: 1.5rem;
   }
 }
+.footer__email {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.social-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.social-list__item {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.social-list__icon {
+  max-width: 32px;
+}
+
+.social-list__link--disabled {
+  pointer-events: none;
+}
+
+.address {
+  text-align: center;
+}
+.address__name {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.email,
+.phone {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.email__icon,
+.phone__icon {
+  max-width: 32px;
+  margin-right: 1rem;
+}
+
+.phone__number {
+  color: #284b63;
+  font-size: 1.6rem;
+}
+
+.email__address {
+  color: #284b63;
+  font-size: 1.6rem;
+}
+.email__address:hover {
+  color: #4582ac;
+}
 
 /*# sourceMappingURL=qanda.css.map */

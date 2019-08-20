@@ -283,5 +283,71 @@ body {
         }
     }
 
+    &__email {
+        @include paddings;
+    }
+}
 
+.social-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    &__item {
+        @include paddings;
+    }
+
+    &__link {}
+
+    &__icon {
+        max-width: 32px;
+    }
+}
+
+.social-list__link--disabled {
+    pointer-events: none;
+}
+
+.address {
+    text-align: center;
+
+    &__name {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+}
+
+.email,
+.phone {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    &__icon {
+        max-width: 32px;
+        margin-right: 1rem;
+
+    }
+}
+
+.phone {
+    &__number {
+        color: $color-blue;
+        font-size: 1.6rem;
+    }
+}
+
+.email {
+    &__address {
+        color: $color-blue;
+        font-size: 1.6rem;
+
+        &:hover {
+            color: lighten($color-blue, 20%);
+        }
+    }
 }
