@@ -219,7 +219,6 @@ body {
 }
 @media (min-width: 992px) {
   .header__logo {
-    right: 0rem;
     bottom: 2.5rem;
   }
 }
