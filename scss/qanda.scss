@@ -274,10 +274,12 @@ body {
 
         &__information {
             flex-basis: 60%;
+            @include paddings;
         }
 
         &__copyright {
             flex-basis: 100%;
+            @include paddings;
         }
     }
 
