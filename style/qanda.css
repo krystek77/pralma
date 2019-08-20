@@ -167,6 +167,35 @@ body {
   }
 }
 
+.navigation.footer__navigation {
+  background-color: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.navigation.footer__navigation .navigation__link {
+  display: block;
+  text-decoration: none;
+  color: #284b63;
+  font-size: 1.4rem;
+  padding: 0.3rem 0rem;
+  border-bottom: initial;
+}
+@media (min-width: 768px) {
+  .navigation.footer__navigation .navigation__link {
+    border-right: initial;
+  }
+}
+.navigation.footer__navigation .navigation__link:hover {
+  background-color: initial;
+  color: #4582ac;
+  padding-left: 1rem;
+}
+.navigation.footer__navigation .navigation__link:hover::before {
+  display: none;
+}
+
 .header {
   width: 100%;
   min-height: 300px;

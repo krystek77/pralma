@@ -97,6 +97,40 @@ body {
     }
 }
 
+.navigation.footer__navigation {
+    background-color: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .navigation__link {
+        display: block;
+        text-decoration: none;
+        color: $color-blue;
+        font-size: 1.4rem;
+        padding: 0.3rem 0rem;
+        border-bottom: initial;
+
+        @media(min-width:$md) {
+            border-right: initial;
+        }
+
+        &:hover {
+            background-color: initial;
+            color: lighten($color-blue, 20%);
+            padding-left: 1rem;
+        }
+
+        &:hover::before {
+            display: none;
+        }
+
+    }
+
+
+}
+
 .header {
     width: 100%;
     // background-color: grey;
@@ -303,7 +337,7 @@ body {
         @include paddings;
     }
 
-    &__link {}
+    // &__link {}
 
     &__icon {
         max-width: 32px;
