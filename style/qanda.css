@@ -340,6 +340,9 @@ body {
     padding-bottom: 2.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    border-top: 1px solid #eef0eb;
   }
 }
 .footer__email {

@@ -280,6 +280,9 @@ body {
         &__copyright {
             flex-basis: 100%;
             @include paddings;
+            text-align: center;
+            font-size: 1.4rem;
+            border-top: 1px solid $color-light;
         }
     }
 
