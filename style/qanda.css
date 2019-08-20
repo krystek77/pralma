@@ -99,12 +99,72 @@ body {
 
 .navigation {
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: #191919;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+@media (min-width: 768px) {
+  .navigation {
+    text-align: right;
+  }
+}
+.navigation__link {
+  display: block;
+  text-decoration: none;
+  color: #eef0eb;
+  font-size: 1.6rem;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid #3f3f3f;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .navigation__link {
+    display: inline;
+    border-bottom: initial;
+    border-right: 1px solid #3f3f3f;
+    padding: 0rem 1rem;
+    font-size: 1.4rem;
+  }
+}
+.navigation__link:last-child {
+  border-bottom: initial;
+}
+@media (min-width: 768px) {
+  .navigation__link:last-child {
+    border-right: initial;
+  }
+}
+.navigation__link::before {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.5rem;
+  height: 100%;
+  background-color: #eef0eb;
+}
+.navigation__link:hover {
+  background-color: #337ca0;
+  padding-left: 2.5rem;
+}
+@media (min-width: 768px) {
+  .navigation__link:hover {
+    background-color: initial;
+    color: #337ca0;
+    padding-left: 1rem;
+  }
+}
+.navigation__link:hover::before {
+  display: block;
+}
+@media (min-width: 768px) {
+  .navigation__link:hover::before {
+    display: none;
+  }
 }
 
 .header {

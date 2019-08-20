@@ -28,9 +28,73 @@ body {
 
 .navigation {
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: $color-dark;
     @include paddings;
+
+    @media(min-width:$md) {
+
+        text-align: right;
+    }
+
+    &__link {
+        display: block;
+        text-decoration: none;
+        color: $color-light;
+        font-size: 1.6rem;
+        padding: 1rem 0rem;
+        border-bottom: 1px solid lighten($color-dark, 15%);
+        transition: all .3s ease-in-out;
+        position: relative;
+
+        @media(min-width:$md) {
+            display: inline;
+            border-bottom: initial;
+            border-right: 1px solid lighten($color-dark, 15%);
+            padding: 0rem 1rem;
+            font-size: 1.4rem;
+        }
+
+        &:last-child {
+            border-bottom: initial;
+
+            @media(min-width:$md) {
+                border-right: initial;
+            }
+        }
+
+        &::before {
+            display: none;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0.5rem;
+            height: 100%;
+            background-color: $color-light;
+        }
+
+        &:hover {
+            background-color: darken($color-secondary, 0%);
+            padding-left: 2.5rem;
+
+            @media(min-width:$md) {
+                background-color: initial;
+                color: darken($color-secondary, 0%);
+                padding-left: 1rem;
+
+            }
+
+        }
+
+        &:hover::before {
+            display: block;
+
+            @media(min-width:$md) {
+                display: none;
+            }
+        }
+
+    }
 }
 
 .header {
