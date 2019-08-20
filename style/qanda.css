@@ -260,6 +260,9 @@ body {
   font-size: 1.3rem;
   line-height: 1.5;
 }
+.aside__link:hover {
+  color: #4582ac;
+}
 
 .article {
   margin-bottom: 2rem;
