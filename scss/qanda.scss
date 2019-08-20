@@ -168,6 +168,28 @@ body {
 
 }
 
+.aside {
+    border-left: 1px solid $color-light;
+
+
+    &__title {}
+
+    &__list {
+        @include paddings;
+    }
+
+    &__item {}
+
+    &__link {
+
+        text-decoration: none;
+        color: $color-blue;
+        font-size: 1.3rem;
+        line-height: 1.5;
+
+    }
+}
+
 .footer {
     width: 100%;
     // background-color: green;
