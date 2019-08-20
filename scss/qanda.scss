@@ -186,9 +186,9 @@ body {
 
     // &__title {}
 
-    // &__list {
-    //     @include paddings;
-    // }
+    &__list {
+        @include paddings;
+    }
 
     // &__item {}
 
