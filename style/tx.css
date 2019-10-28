@@ -1,0 +1,188 @@
+/*
+* TX
+*/
+div#content>article#productinfo .seria-tx {
+    width: 100%;
+}
+
+div#content>article#productinfo .seria-tx>.header {
+    width: 100%;
+    padding: 0;
+}
+
+div#content>article#productinfo .seria-tx>.header span {
+    padding-left: 10px;
+}
+
+div#content>article#productinfo .seria-tx>header .header--title {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 15px;
+    padding: 0;
+    padding-left: 10px;
+}
+
+div#content>article#productinfo .seria-tx .desc {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    padding: 10px;
+}
+
+div#content>article#productinfo .seria-tx h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 0;
+    text-align: left;
+    font-weight: 500;
+}
+
+div#content>article#productinfo .seria-tx h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #188ac7;
+    padding: 0;
+    text-align: left;
+    font-weight: 500;
+}
+
+div#content>article#productinfo .seria-tx ul {
+    list-style: disc;
+    padding-left: 15px;
+}
+
+div#content>article#productinfo .seria-tx .wrapper {
+    padding: 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+div#content>article#productinfo .seria-tx .wrapper table {
+    font-size: 14px;
+    text-align: center;
+    border-spacing: 5px;
+}
+
+div#content>article#productinfo .seria-tx .wrapper table thead tr th {
+    background-color: #00aeef;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    width: 340px;
+}
+
+div#content>article#productinfo .seria-tx .wrapper table tbody tr td {
+    background-color: #cbe3f9;
+    padding: 10px;
+}
+
+div#content>article#productinfo .seria-tx .wrapper table tbody tr td.left {
+    text-align: left;
+}
+
+div#content>article#productinfo .seria-tx .wrapper table tbody tr.even-row td {
+    background-color: #e7f2fc;
+}
+
+div#content>article#productinfo>.seria-tx .wrapper.introduction {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.unique .wrapper-images-row {
+    width: 70%;
+    margin: 0 auto;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.spec {
+    width: 100%;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.spec h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.unique .images-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.unique .images-row>div {
+    flex-grow: 1;
+    padding: 15px;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.unique .duet {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.compare .images-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#content>article#productinfo .seria-tx .wrapper.drum .images-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#content>article#productinfo .seria-tx .wrapper.compare .images-row>div {
+    padding: 15px;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.drum .images-row>div {
+    padding: 15px;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.control {
+    display: row;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.control .first-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.control .second-row {
+    padding: 25px;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.control .second-row>img {
+    display: block;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.control .first-row>div {
+    flex-grow: 1;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.control .first-row>div>img {
+    width: 50%;
+}
+
+div#content>article#productinfo .seria-tx .wrapper.control .first-row>div>ul {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+}
