@@ -38,13 +38,16 @@ ul {
 .header {
 	/*
     * component
-    */
-	background-image: url(../media/images/vendLaundry/bg_fullpage-min.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center top;
-	height: 100vh;
-	width: 100vw;
+	*/
+	height: 800px;
+	max-height: 100vh;
+
+	&--wrapper {
+		background-image: url(../media/images/vendLaundry/bg_fullpage-min.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
 	.active {
 		padding-left: 2rem;
 		transform: scale(1.1);
@@ -52,8 +55,8 @@ ul {
 	}
 	&--navigation {
 		position: absolute;
-		left: 0;
-		bottom: 25vh;
+		left: 75px;
+		bottom: 150px;
 	}
 	.navigation--link {
 		display: block;
@@ -74,8 +77,8 @@ ul {
 		font-size: 3rem;
 		text-transform: uppercase;
 		position: absolute;
-		right: 0;
-		bottom: 22vh;
+		right: 25px;
+		bottom: 200px;
 		max-width: 500px;
 	}
 	&--new-line {
@@ -86,8 +89,8 @@ ul {
 	&--address {
 		color: $color-white;
 		position: absolute;
-		left: 0;
-		bottom: 5vh;
+		left: 50px;
+		bottom: 50px;
 	}
 }
 
@@ -103,7 +106,7 @@ ul {
 	&--web-page {
 		position: absolute;
 		left: 50%;
-		bottom: 2vh;
+		bottom: 25px;
 		transform: translate(-50%, 0);
 		color: rgba($color: $color-white, $alpha: 0.6);
 	}
