@@ -1,6 +1,10 @@
 $color-blue: #009fe3;
 $color-white: #ffffff;
+$color-grey: rgb(224, 224, 224);
 
+* {
+	box-sizing: border-box;
+}
 html {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 62.5%;
@@ -8,6 +12,8 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	margin-top: 2.5rem;
+	background-color: $color-grey;
 }
 
 h1,
@@ -29,6 +35,9 @@ ul {
 	margin-right: auto;
 	position: relative;
 	height: 100%;
+	box-shadow: 0px 0px 0.4rem 0.1rem rgba(0, 0, 0, 0.3);
+	background-color: $color-white;
+	padding: 2.5rem;
 	/*
     * temporary
     */
@@ -44,19 +53,19 @@ ul {
 
 	&--wrapper {
 		background-image: url(../media/images/vendLaundry/bg_fullpage-min.png);
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center top;
 	}
 	.active {
 		padding-left: 2rem;
 		transform: scale(1.1);
-		border-left: 5px solid $color-blue;
+		border-left: 0.5rem solid $color-blue;
 	}
 	&--navigation {
 		position: absolute;
-		left: 75px;
-		bottom: 150px;
+		left: 7.5rem;
+		bottom: 15rem;
 	}
 	.navigation--link {
 		display: block;
@@ -67,7 +76,7 @@ ul {
 		&:hover {
 			padding-left: 2rem;
 			transform: scale(1.1);
-			border-left: 5px solid $color-blue;
+			border-left: 0.5rem solid $color-blue;
 		}
 	}
 
@@ -77,8 +86,8 @@ ul {
 		font-size: 3rem;
 		text-transform: uppercase;
 		position: absolute;
-		right: 25px;
-		bottom: 200px;
+		right: 2.5rem;
+		bottom: 20rem;
 		max-width: 500px;
 	}
 	&--new-line {
@@ -89,9 +98,13 @@ ul {
 	&--address {
 		color: $color-white;
 		position: absolute;
-		left: 50px;
-		bottom: 50px;
+		left: 5rem;
+		bottom: 5rem;
 	}
+}
+
+.highlights {
+	color: $color-blue;
 }
 
 .address {
@@ -152,5 +165,134 @@ ul {
 	&--link {
 		text-decoration: none;
 		font-size: 1.6rem;
+	}
+}
+
+section {
+	margin-top: 2.5rem;
+}
+/*
+* introduction
+*/
+.introduction {
+	/*
+    * temporary
+    */
+	min-height: 500px;
+	height: 800px;
+
+	&--wrapper {
+		background-image: url(../media/images/vendLaundry/introduction-min.png),
+			url(../media/images/vendLaundry/introduction_rb-min.png),
+			url(../media/images/vendLaundry/introduction_lb-min.png);
+		background-repeat: no-repeat, no-repeat, no-repeat;
+		background-position: center top, right bottom, left bottom;
+		background-size: contain, 25%, 50px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+		padding-bottom: 5rem;
+	}
+	&--title {
+		border-bottom: 1px solid $color-grey;
+		padding-bottom: 1.5rem;
+		font-size: 1.8rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		grid-area: header;
+	}
+	&--content {
+		max-width: 900px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: [header-start ]auto [header-end] auto [article];
+		grid-template-areas:
+			'header header'
+			'article-one article-two';
+		grid-column-gap: 2.5rem;
+	}
+	.content--article.__one {
+		grid-area: article-one;
+	}
+	.content--article.__two {
+		grid-area: article-two;
+	}
+}
+
+.article {
+	/*
+	* component
+	*/
+	&--title {
+		font-size: 2.4rem;
+		font-weight: 300;
+		text-transform: uppercase;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+}
+.description {
+	/*
+	* component
+	*/
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.innovating {
+	/*
+    * temporary
+	*/
+	min-height: 950px;
+	height: 1200px;
+	&--wrapper {
+		background-image: url(../media/images/vendLaundry/laundromats_bg-min.png),
+			url(../media/images/vendLaundry/laundromats_tr-min.png),
+			url(../media/images/vendLaundry/laundromats_br-min.png),
+			url(../media/images/vendLaundry/laundromats_bl-min.png);
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: center center, top right, bottom right, left bottom;
+		background-size: contain, 25%, 50px, 50px;
+		padding-bottom: 5rem;
+	}
+	&--content {
+		max-width: 900px;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: auto 1fr 1fr;
+		grid-template-areas: 'header header header header';
+		grid-column-gap: 2.5rem;
+		margin: 0 auto;
+	}
+	&--title {
+		font-size: 2.4rem;
+		font-weight: 300;
+		text-transform: uppercase;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		grid-area: header;
+	}
+	&--article:nth-child(n + 6) {
+		align-self: end;
+	}
+	&--article .article--footer {
+		background-color: $color-blue;
+		padding: 1rem 1.5rem;
+		color: $color-white;
+		font-weight: 500;
+		font-size: 1.1rem;
+	}
+	&--article .article--title {
+		font-size: 1.8rem;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	&--article .article--description {
+		font-size: 1.4rem;
+		font-weight: 300;
+		line-height: 1.3;
+		margin-bottom: 1.5rem;
 	}
 }
