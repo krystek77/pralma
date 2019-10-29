@@ -1,3 +1,8 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,18 +14,136 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 100%;
+  /*
+     * temporary
+     */
 }
 
 .header {
+  /*
+     * component
+     */
   background-image: url(../media/images/vendLaundry/bg_fullpage-min.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
   height: 100vh;
   width: 100vw;
+}
+.header .active {
+  padding-left: 2rem;
+  transform: scale(1.1);
+  border-left: 5px solid #009fe3;
+}
+.header--navigation {
+  position: absolute;
+  left: 0;
+  bottom: 25vh;
+}
+.header .navigation--link {
+  display: block;
+  color: #ffffff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.header .navigation--link:hover {
+  padding-left: 2rem;
+  transform: scale(1.1);
+  border-left: 5px solid #009fe3;
+}
+.header--title {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 3rem;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  bottom: 22vh;
+  max-width: 500px;
+}
+.header--new-line {
+  display: block;
+  font-size: 1.5rem;
+}
+.header--address {
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: 5vh;
+}
+
+.address {
+  /*
+     * component
+     */
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+.address--name {
+  font-size: 1.4rem;
+}
+.address--web-page {
+  position: absolute;
+  left: 50%;
+  bottom: 2vh;
+  transform: translate(-50%, 0);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact {
+  /*
+     * component
+     */
+}
+.contact--email-address {
+  font-size: 1.5rem;
+  color: #009fe3;
+  transition: color 0.3s ease-in-out;
+}
+.contact--email-address:hover {
+  color: #ffffff;
+}
+
+.web-page {
+  /*
+     * component
+     */
+  letter-spacing: 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  transition: color 0.3s ease-in-out;
+}
+.web-page:hover {
+  color: #ffffff;
+}
+
+.navigation {
+  /*
+     * component
+  */
+}
+.navigation--list {
+  list-style: none;
+  font-family: Roboto, sans-serif;
+  padding: 0;
+}
+.navigation--link {
+  text-decoration: none;
+  font-size: 1.6rem;
 }
 
 /*# sourceMappingURL=vend-laundries-equipment.css.map */

@@ -1,6 +1,13 @@
+$color-blue: #009fe3;
+$color-white: #ffffff;
+
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 62.5%;
+}
 body {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 h1,
@@ -9,16 +16,138 @@ h3,
 h4,
 h5,
 h6,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
+p,
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1rem;
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	height: 100%;
+	/*
+    * temporary
+    */
+	// background-color: rgba(0, 0, 0, 0.3);
 }
 
 .header {
-    background-image: url(../media/images/vendLaundry/bg_fullpage-min.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center top;
-    height: 100vh;
-    width: 100vw;
+	/*
+    * component
+    */
+	background-image: url(../media/images/vendLaundry/bg_fullpage-min.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 100vh;
+	width: 100vw;
+	.active {
+		padding-left: 2rem;
+		transform: scale(1.1);
+		border-left: 5px solid $color-blue;
+	}
+	&--navigation {
+		position: absolute;
+		left: 0;
+		bottom: 25vh;
+	}
+	.navigation--link {
+		display: block;
+		color: $color-white;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			padding-left: 2rem;
+			transform: scale(1.1);
+			border-left: 5px solid $color-blue;
+		}
+	}
+
+	&--title {
+		color: $color-white;
+		font-weight: 500;
+		font-size: 3rem;
+		text-transform: uppercase;
+		position: absolute;
+		right: 0;
+		bottom: 22vh;
+		max-width: 500px;
+	}
+	&--new-line {
+		display: block;
+		font-size: 1.5rem;
+	}
+
+	&--address {
+		color: $color-white;
+		position: absolute;
+		left: 0;
+		bottom: 5vh;
+	}
+}
+
+.address {
+	/*
+    * component
+    */
+	font-weight: 300;
+	font-size: 1.6rem;
+	&--name {
+		font-size: 1.4rem;
+	}
+	&--web-page {
+		position: absolute;
+		left: 50%;
+		bottom: 2vh;
+		transform: translate(-50%, 0);
+		color: rgba($color: $color-white, $alpha: 0.6);
+	}
+}
+
+.contact {
+	/*
+    * component
+    */
+	&--email-address {
+		font-size: 1.5rem;
+		color: $color-blue;
+		transition: color 0.3s ease-in-out;
+		&:hover {
+			color: $color-white;
+		}
+	}
+}
+
+.web-page {
+	/*
+    * component
+    */
+	letter-spacing: 0.2rem;
+	font-size: 1.6rem;
+	font-weight: 300;
+
+	transition: color 0.3s ease-in-out;
+	&:hover {
+		color: $color-white;
+	}
+}
+.navigation {
+	/*
+    * component
+	*/
+
+	&--list {
+		list-style: none;
+		font-family: Roboto, sans-serif;
+		padding: 0;
+	}
+	&--link {
+		text-decoration: none;
+		font-size: 1.6rem;
+	}
 }
