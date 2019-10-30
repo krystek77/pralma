@@ -323,7 +323,7 @@ section {
 .payment-options--wrapper {
   background-image: url(../media/images/vendLaundry/wash_it_lb-min.png), url(../media/images/vendLaundry/wash_it_tr-min.png), url(../media/images/vendLaundry/wash_it_lt-min.png), url(../media/images/vendLaundry/wash_it_rb-min.png), url(../media/images/vendLaundry/introduction_lb-min.png), url(../media/images/vendLaundry/wash_it_logo-min.png), url(../media/images/vendLaundry/wash_it_eco_logo-min.png), url(../media/images/vendLaundry/wash_it_radax_logo-min.png), url(../media/images/vendLaundry/wash_it_sensodry_logo-min.png);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: left center, right top, left top, right bottom, left bottom, right 20%, right 25%, left 70%, left 75%;
+  background-position: left 80%, right top, left top, right bottom, left bottom, right 19%, right 26%, left 60%, left 93%;
   background-size: 48%, auto, auto, 50px, 50px, 150px, 150px, 150px, 150px;
   padding-bottom: 5rem;
   padding-top: 15rem;
