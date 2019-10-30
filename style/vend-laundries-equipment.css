@@ -278,8 +278,8 @@ section {
   /*
      * temporary
   */
-  min-height: 950px;
-  height: 1200px;
+  min-height: 1050px;
+  height: 1300px;
 }
 .innovating--wrapper {
   background-image: url(../media/images/vendLaundry/laundromats_bg-min.png), url(../media/images/vendLaundry/laundromats_tr-min.png), url(../media/images/vendLaundry/laundromats_br-min.png), url(../media/images/vendLaundry/laundromats_bl-min.png);
