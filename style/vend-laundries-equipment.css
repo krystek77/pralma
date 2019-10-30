@@ -482,4 +482,15 @@ section {
   padding-bottom: 2rem;
 }
 
+/*
+* footer
+*/
+.footer {
+  margin-top: 2.5rem;
+  color: #ffffff;
+}
+.footer--wrapper {
+  background-color: #000000;
+}
+
 /*# sourceMappingURL=vend-laundries-equipment.css.map */

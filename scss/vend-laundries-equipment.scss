@@ -1,6 +1,7 @@
 $color-blue: #009fe3;
 $color-white: #ffffff;
 $color-grey: rgb(224, 224, 224);
+$color-black: #000000;
 
 * {
 	box-sizing: border-box;
@@ -512,5 +513,15 @@ section {
 		font-size: 1.8rem;
 		font-weight: 300;
 		padding-bottom: 2rem;
+	}
+}
+/*
+* footer
+*/
+.footer {
+	margin-top: 2.5rem;
+	color: $color-white;
+	&--wrapper {
+		background-color: $color-black;
 	}
 }
