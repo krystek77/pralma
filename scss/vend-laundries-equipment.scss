@@ -521,7 +521,30 @@ section {
 .footer {
 	margin-top: 2.5rem;
 	color: $color-white;
+	text-align: center;
 	&--wrapper {
 		background-color: $color-black;
+		background-image: url(../media/images/vendLaundry/machine_blue-min.png),
+			url(../media/images/vendLaundry/machine_blue-min.png);
+		background-repeat: no-repeat, no-repeat;
+		background-position: right top, left bottom;
+		background-size: 50px, 50px;
 	}
+	.contact .contact--number {
+		font-size: 1.5rem !important;
+	}
+}
+.brand-name {
+	font-size: 2rem;
+}
+.role {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 1.4rem;
+	font-weight: 400;
+	font-style: italic;
+}
+.made-by {
+	margin-top: 1.5rem;
+	font-size: 1.2rem;
 }
