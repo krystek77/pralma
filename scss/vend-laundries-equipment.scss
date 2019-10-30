@@ -2,6 +2,8 @@ $color-blue: #009fe3;
 $color-white: #ffffff;
 $color-grey: rgb(224, 224, 224);
 $color-black: #000000;
+$color-light: rgba(238, 240, 235, 1);
+$color-primary: rgba(255, 0, 0, 1);
 
 * {
 	box-sizing: border-box;
@@ -547,4 +549,23 @@ section {
 .made-by {
 	margin-top: 1.5rem;
 	font-size: 1.2rem;
+}
+/*
+* scroll top
+*/
+.scrollTop {
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	padding: 1rem 1.5rem;
+	cursor: pointer;
+	background-color: $color-primary;
+	border: 1px solid darken($color-primary, 20%);
+	color: $color-light;
+	transition: all 0.3s ease-in-out;
+	outline: none;
+
+	&:hover {
+		background-color: darken($color-primary, 20%);
+	}
 }
